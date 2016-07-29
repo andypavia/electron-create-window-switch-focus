@@ -1,16 +1,19 @@
-**Clone and run for a quick way to see an Electron in action.**
+**Clone and run for a quick way to how you can create new windows and change focus between them**
 
-This is a minimal Electron application that opens a new window and switches focus from the newly created window to the main window. This is done by leverage the [win.focus() API](http://electron.atom.io/docs/api/browser-window/#winfocus). 
+This is a minimal Electron application that opens a new window and switches focus from the newly created window to the main window. This is done by leveraging the [win.focus() API](http://electron.atom.io/docs/api/browser-window/#winfocus). 
 
 
 A basic Electron application needs just these files:
 
 - `package.json` - Points to the app's main file and lists its details and dependencies.
 - `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+- `index.html` - The main window to render. This is the app's **renderer process**.
+- `mainWindow.js` - The JS of the main window
+- `secondaryWindow.html` - The second window to render
+- `mainWindow.js` - The JS of the second window
 
 
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
-#### License [CC0 (Public Domain)](LICENSE.md)
+
