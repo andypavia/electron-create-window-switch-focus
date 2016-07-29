@@ -1,4 +1,4 @@
-**Clone and run for a quick way to how you can create new windows and change focus between them**
+**Minimal example: create new windows and change window focus**
 
 This is a minimal Electron application that opens a new window and switches focus from the newly created window to the main window. This is done by leveraging the [win.focus() API](http://electron.atom.io/docs/api/browser-window/#winfocus). 
 
