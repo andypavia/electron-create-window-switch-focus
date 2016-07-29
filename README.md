@@ -1,6 +1,6 @@
 **Clone and run for a quick way to see an Electron in action.**
 
-This is a minimal Electron application that opens a new window and switch focus from the newly created window to the main window.
+This is a minimal Electron application that opens a new window and switches focus from the newly created window to the main window. This is done by leverage the [win.focus() API](http://electron.atom.io/docs/api/browser-window/#winfocus). 
 
 
 A basic Electron application needs just these files:
