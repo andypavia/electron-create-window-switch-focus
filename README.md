@@ -13,6 +13,16 @@ Files explained:
 - `mainWindow.js` - The JS of the second window
 
 
+To run:
+
+# Clone 
+$ git clone https://github.com/andypavia/electron-create-window-switch-focus.git
+
+# Go into the repository
+$ cd electron-create-window-switch-focus
+
+# Install the dependencies and run
+$ npm install && npm start
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
